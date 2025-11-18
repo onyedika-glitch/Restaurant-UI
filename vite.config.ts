@@ -53,8 +53,15 @@
       target: 'esnext',
       outDir: 'build',
     },
+    preview: {
+      port: 3000,
+      allowedHosts: ['restaurant-ui-2a08.onrender.com', 'localhost', '127.0.0.1'],
+      host: '0.0.0.0',
+    },
     server: {
       port: 3000,
       open: true,
+      allowedHosts: ['restaurant-ui-2a08.onrender.com', 'localhost', '127.0.0.1'],
+      host: '0.0.0.0',
     },
   });
